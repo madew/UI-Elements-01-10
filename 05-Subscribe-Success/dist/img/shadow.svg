@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="21px" viewBox="0 0 154 21" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Oval</title>
+  <defs>
+    <rect id="path-1" x="15" y="18" width="860" height="622" rx="5"></rect>
+    <filter x="-6.6%" y="-6.8%" width="113.3%" height="118.3%" filterUnits="objectBoundingBox" id="filter-2">
+      <feMorphology radius="6" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+      <feOffset dx="0" dy="15" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.115500453   0 0 0 0 0.577502264  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Day-1008-Success-Subscribe-UI-Design" transform="translate(-614.000000, -393.000000)">
+      <rect id="Mask" fill="#F7F8FC" x="0" y="0" width="1440" height="1024"></rect>
+      <g id="Group-3" transform="translate(246.000000, 179.000000)">
+        <rect id="Rectangle-Copy" fill="#F0F2FB" x="0" y="0" width="890" height="655" rx="10"></rect>
+        <g id="Rectangle" fill-rule="nonzero">
+          <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+          <use fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+        <g id="Group-2" transform="translate(138.000000, 214.000000)" fill="#F0F2FB">
+          <ellipse id="Oval" cx="307" cy="10.5" rx="77" ry="10.5"></ellipse>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
